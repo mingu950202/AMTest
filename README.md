@@ -6,9 +6,8 @@
 - Visual Studio, Arduino, MySQL
 
 ### 사용 방법
+- Photocell.ino 실행 후 조도센서 연결
 - MySQL을 열어 iot_sensordata_database.sql을 실행 후 쿼리 실행
-- Arduino에 조도 센서를 연결하고, 컴퓨터에 Arduino를 연결
-- Arduino에 PhotoRegisterSensor.ino 업로드
 - Visual Studio를 이용하여 AMTest.sln 파일을 실행 
 - Ctrl + F5 후 PORT를 자동으로 읽어오면 Arduino에 연결된 PORT 선택 후 Connect
 - 또는 위 과정 없이 시뮬레이션 시작
